@@ -350,7 +350,7 @@ echo ""  | tee -a log-install.txt
 echo "nginx : http://$myip:80"   | tee -a log-install.txt
 echo "Webmin : http://$myip:10000/"  | tee -a log-install.txt
 echo "ปลาหมึก : 8080"  | tee -a log-install.txt
-echo "เปิดเอสเอสเอช : 22"  | tee -a log-install.txt
+echo "เปิดเอสเอ&สเอช : 22"  | tee -a log-install.txt
 echo "วางหมี : 443"  | tee -a log-install.txt
 echo "เปิดวีพีเอ็น  : TCP 1194 (พร้อม bug)"  | tee -a log-install.txt
 echo "Fail2Ban : [on]"  | tee -a log-install.txt
@@ -361,6 +361,6 @@ echo "----------------------------------------"
 echo "LOG INSTALL  --> /root/log-install.txt"
 echo "----------------------------------------"
 echo "========================================"  | tee -a log-install.txt
-echo "      รีเซิฟทีนึง        "
+echo "      รีเซิฟทีนึง      " 
 echo "========================================"  | tee -a log-install.txt
 cat /dev/null > ~/.bash_history && history -c
